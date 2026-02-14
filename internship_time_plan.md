@@ -21,9 +21,9 @@ Weekly Total: 12 Hours
 | | 20 Mar | Fri | 8 | Monash Generator | | |
 | **Week 6** | 25 Mar | Wed | 4 | Swinburne Hawthorn / Online | 12 | 72 |
 | | 27 Mar | Fri | 8 | Monash Generator | | |
-| **Week 7** | 01 Apr | Wed | 4 | Online | 12 | 84 |
+| **Week 7** | 01 Apr | Wed | 4 | Swinburne Hawthorn / Online | 12 | 84 |
 | | 03 Apr | Fri | 8 | Monash Generator | | |
-| **Week 8** | 08 Apr | Wed | 4 | Online | 12 | 96 |
+| **Week 8** | 08 Apr | Wed | 4 | Swinburne Hawthorn / Online | 12 | 96 |
 | | 10 Apr | Fri | 8 | Monash Generator | | |
 | **Week 9** | 15 Apr | Wed | 4 | Swinburne Hawthorn / Online | 12 | 108 |
 | | 17 Apr | Fri | 8 | Monash Generator | | |
@@ -31,5 +31,5 @@ Weekly Total: 12 Hours
 | | 24 Apr | Fri | 8 | Monash Generator | | |
 | **Week 11** | 29 Apr | Wed | 4 | Swinburne Hawthorn / Online | 12 | 132 |
 | | 01 May | Fri | 8 | Monash Generator | | |
-| **Week 12** | 06 May | Wed | 4 | Online | 8 | **140** |
+| **Week 12** | 06 May | Wed | 4 | Swinburne Hawthorn / Online | 8 | **140** |
 | | 08 May | Fri | 4 | Monash Generator | | |
