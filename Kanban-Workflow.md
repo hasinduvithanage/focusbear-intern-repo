@@ -35,4 +35,4 @@ Move at least one task through the Kanban process and update its status correctl
 - Done
 
 Identify one way you can improve task tracking in your role.
-
+In my role since I will be using GitHub, I can automate the transitioning of tasks by linking GitHub with the Kanban board. Whenever there is a pull request, the kanban card can progress to read for review from in progress. This reduces manual admin work.
