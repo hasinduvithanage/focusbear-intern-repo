@@ -51,11 +51,11 @@ How can you make secure behaviour a habit rather than an afterthought?
 I can do the act again and again consistently. For example, with M2FA I can make this a regular thing by activating it for every one of my accounts till it becomes natural for me to do.
 
 What steps will you take to ensure your passwords and accounts are secure?
-
+I will use a password manager to secure my passwords and I will use multi 2 factor authentication to secure all my accounts.
 
 What would you do if you suspected a security breach or suspicious activity on your account?
 
-
+If I suspect a security breach, I will immediately change all the related passwords from a different device. For the infected device, I would disconnect it from WiFi. I would immediately contact my company team and notify them about the situation.
 
 🛠️ Task
 
@@ -63,10 +63,10 @@ Ensure your work accounts have strong passwords and enable 2FA where possible.
 done 
 
 Review your password storage method—if you’re not using a password manager, consider setting one up.
-Am using Google Password manager
+I am using Google Password manager
 
 Set up your computer and phone to automatically lock (require a password or biometric login) if you are away for more than a few minutes
 done
 
 Document one new cyber security habit you will follow at Focus Bear.
-
+I usually rely on my auto lock when I move away from my device. Instead, I will actively lock my device before moving away from device.
