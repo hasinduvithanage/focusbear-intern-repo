@@ -19,3 +19,4 @@ I want to improve my confidence in Git workflows like handling complex merge con
 What does success in this internship look like for you?
 
 After the internship if I can be considered as a Developer who has made tangible contributions to the codebase I would be ecstatic and would consider this internship as a success.
+
