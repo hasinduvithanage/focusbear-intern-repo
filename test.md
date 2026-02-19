@@ -1,4 +1,4 @@
-# Definition of Done (DoD) in Agile
+# Definition of Done (DoD) in Kanban testing
 
 ## What is Definition of Done?
 
