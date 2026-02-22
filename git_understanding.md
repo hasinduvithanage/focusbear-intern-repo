@@ -56,6 +56,16 @@ How can poor commit messages cause issues later?
 
 Months from an edit, poor messages can provide no context which would confuse developers as they would not know if that specific code can be changed or not. Without proper context, future developers will have to spend a lot of time understanding the code.
 
+3.3 Understandin Git Bisect
+
+What does git bisect do?
+
+
+
+When would you use it in a real-world debugging situation?
+
+How does it compare to manually reviewing commits?
+
 
 
 
