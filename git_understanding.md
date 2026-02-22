@@ -38,7 +38,7 @@ A good PR should have context, like why a change was made and how it was made. K
 
 What did you learn from reviewing an open-source PR?
 
-
+I learned the importance of rigorous communication. I learned that it is important to prioritize backward compatibility, and clear documentation. And when reviewing it is important to make sure that the changes align with the project's long term architecture and standards.
 
 
 
