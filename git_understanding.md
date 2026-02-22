@@ -43,4 +43,18 @@ What did you learn from reviewing an open-source PR?
 
 
 
+3.2 Writing Meaningful Commit Messages 
+What makes a good commit message?
+
+The subject line should be short and to the point. Use prefixes to categorize the changes. In the body include context and the changes made and in what lines.
+
+How does a clear commit message help in team collaboration?
+
+
+How can poor commit messages cause issues later?
+
+
+
+
+
 
