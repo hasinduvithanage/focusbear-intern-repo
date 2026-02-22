@@ -54,6 +54,7 @@ This leads to faster code reviews by bypassing confusion in the intent behind th
 
 How can poor commit messages cause issues later?
 
+Months from an edit, poor messages can provide no context which would confuse developers as they would not know if that specific code can be changed or not. Without proper context, future developers will have to spend a lot of time understanding the code.
 
 
 
