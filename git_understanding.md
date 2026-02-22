@@ -50,6 +50,7 @@ The subject line should be short and to the point. Use prefixes to categorize th
 
 How does a clear commit message help in team collaboration?
 
+This leads to faster code reviews by bypassing confusion in the intent behind the change. Can debug efficiently since all changes will be stored clear cut in history. 
 
 How can poor commit messages cause issues later?
 
