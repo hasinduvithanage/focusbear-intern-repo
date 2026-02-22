@@ -43,4 +43,30 @@ I learned the importance of rigorous communication. I learned that it is importa
 
 
 
+3.2 Writing Meaningful Commit Messages 
+What makes a good commit message?
+
+The subject line should be short and to the point. Use prefixes to categorize the changes. In the body include context and the changes made and in what lines.
+
+How does a clear commit message help in team collaboration?
+
+This leads to faster code reviews by bypassing confusion in the intent behind the change. Can debug efficiently since all changes will be stored clear cut in history. 
+
+How can poor commit messages cause issues later?
+
+Months from an edit, poor messages can provide no context which would confuse developers as they would not know if that specific code can be changed or not. Without proper context, future developers will have to spend a lot of time understanding the code.
+
+3.3 Understandin Git Bisect
+
+What does git bisect do?
+
+
+
+When would you use it in a real-world debugging situation?
+
+How does it compare to manually reviewing commits?
+
+
+
+
 
