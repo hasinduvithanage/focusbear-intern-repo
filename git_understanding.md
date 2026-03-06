@@ -109,9 +109,16 @@ I was surprised by how precise the commands were when giving out the information
 
 
 
+3.5 Branching & Team Collaboration
 
+Why is pushing directly to main problematic?
+Pushing directly to the main branch is problematic since a wrong/broken code can affect the entire project. It will disrupt other developers' works as well.
 
+How do branches help with reviewing code?
+Branches allow developers to work on features and bug fixes independently. The changes can then be reviewed before being merged. 
 
+What happens if two people edit the same file on different branches?
+There will be a merge conflict when merging the branches back into main. The developers must then manually review the differences and decide which iteration of the specific line of code to keep.
 
 
 
