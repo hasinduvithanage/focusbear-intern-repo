@@ -33,21 +33,44 @@ How did refactoring improve the structure of the code?
 After refactoring the code stops looking like one large block of logic. There is better readability since the code was broken into clear steps. 
 
 
-
-
 4.4 Avoiding Code Duplication
+
+What were the issues with duplicated code?
+It was unneccessarily long and it makes the code harder to read since the same logic appears in multiple places.
+
+How did refactoring improve maintainability?
+Refactoring removes the duplicate code so that if there is a change later on, the change would not have to be implemented in multiple areas, which would increase the risk of errors. 
+
 
 4.5 Commenting & Documentation
 
+
+
 4.6 Handling Errors & Edge Cases
+
+
 
 4.7 Refactoring Code for Simplicity
 
+
+
 4.8 Identifying & Fixing Code Smells
+
+
 
 4.9 Writing Unit Tests for Clean Code
 
+
+
 4.10 Code Formatting & Style Guides
 
+
+
 4.11 Static Analysis Checks in CI/CD
+
+
+
+
+
+
 
