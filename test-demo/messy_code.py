@@ -12,3 +12,13 @@ for i in numbers:
         else:
             s=s+i*3
 print(s)
+
+"""
+
+This code is difficult to read because:
+- variable names such as `s` and `i` do not explain the meaning behind them
+- the rules for calculation are not obvious at first glance
+- there is no separation between calculation and output
+- it would be harder to modify later without re-reading the whole block
+
+"""
