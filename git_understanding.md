@@ -121,6 +121,17 @@ What happens if two people edit the same file on different branches?
 There will be a merge conflict when merging the branches back into main. The developers must then manually review the differences and decide which iteration of the specific line of code to keep.
 
 
+3.6 Git Concepts: Staging vs. Committing
+
+What is the difference between staging and committing?
+Staging means when I prepare the changes to be commited. Commiting means permanently saving the changes to the branch in the repository. 
+
+Why does Git separate these two steps?
+Git seperates the two since then developers have more control over what they are committing. For example, if they only want commit a few of the changes made, they can do that using staging and committing.
+
+When would you want to stage changes without committing?
+When I want to review what will be comitted without actually committing.
+
 
 
 
