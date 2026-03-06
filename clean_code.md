@@ -17,19 +17,20 @@ What makes a good variable or function name?
 A good name for a variable and function clearly describes what the variable holds. It would be consistent across the code and will help developers understand the code without needing extra explanations. Eg: calulcateTotal()
 
 What issues can arise from poorly named variables?
-Developers can misunderstand the purpose of the variable which could lead to bugs. 
+Developers can misunderstand the purpose of the variable which could lead to bugs.
 It also makes debugging and maintaining the code more difficult.
 
 How did refactoring improve code readability?
 Refactoring allowed me to understand the purpose of the function and the variable at a glance. It made the code easier to follow and understand. And later it will be much easier for me to go back to the code to maintain it or add things on top of it.
 
 
-
 4.3 Writing Small, Focused Functions
 
+Why is breaking down functions beneficial?
+The main purpose of breaking down functions is to make the code easier to read, and debug. By writing code where each function has one responsibility problems are easier to identify and changes are safer to make for the individual functions.
 
-
-
+How did refactoring improve the structure of the code?
+After refactoring the code stops looking like one large block of logic. There is better readability since the code was broken into clear steps. 
 
 
 
