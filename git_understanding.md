@@ -72,4 +72,72 @@ How does it compare to manually reviewing commits?
 
 
 
+3.4 Advanced Git Commands & When to Use Them
+What does each command do?
+
+git checkout main -- <file>
+- It helps to a file back to its orignial state from the main branch
+
+git cherry-pick <commit> 
+- This command commits a specific section from another branch into the current branch
+
+git log
+- This displays the commit history of a repo, like the author and the commit message.
+
+
+git blame <file>
+- It displays the commit including author and date that last modified a line of code.
+
+When would you use it in a real project (hint: these are all really important in long running projects with multiple developers)?
+
+git checkout main -- <file>
+- This helps to restore a file to the original version in the main incase I accidentaly modify or break the file while working on a feature branch
+
+git cherry-pick <commit> 
+- If a specific bug fix was done in another branch I can just import that specific fix into my current branch that I am working on. 
+
+git log
+- This can be used to review past commits and understand what changes have been made and when.
+
+git blame <file>
+- This can be used when debugging and investigating issues in a codebase. It can be used to identify who made a change to a line of code that is causing issues.
+
+What surprised you while testing these commands?
+
+I was surprised by how precise the commands were when giving out the information. I also realized how useful these commands were and the level of flexibility offered by these commands were really good.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
