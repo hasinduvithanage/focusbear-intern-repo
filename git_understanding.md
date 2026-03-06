@@ -59,13 +59,16 @@ Months from an edit, poor messages can provide no context which would confuse de
 3.3 Understandin Git Bisect
 
 What does git bisect do?
-
-
+Git bisect is a debugging tool that helps find the exact commit that introduced the bug. After I identify a good commit and a bad commit, this tool will check all the middle commits for the first mad commit where the bug was created.
 
 When would you use it in a real-world debugging situation?
 
+- I would use it when there is a bug but I know that the bug was there for a while now and it is not a bug that I just found.
+- I would also use it if the repo has many commits and manually checking would take time.
+
 How does it compare to manually reviewing commits?
 
+- It is much faster and there's less workload on the human coder to manually review all of the commits. If the changes themselves are large it will take a longer time and will be exhausting to check manually.
 
 
 
