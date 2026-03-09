@@ -30,7 +30,16 @@ As a backend developer I feel that the ceremony, Backlog refinement is the most 
 
 Attend a stand-up meeting and observe how updates are shared.
 
+Date/time: 6/3/2026 at 4.00pm
+Updates were shared going around the online room one by one.
+Everyone's work for the week was discussed, and problems encountered and how people solved the problems were discussed.
+
 Participate in a retrospective or review past notes from one.
+
+Reviewed past notes of meeting on 5/3/2026.
+Summary:
+- New feature discussed regarding adding a feature to add emojis to the rountine generations.
+- Interns talked about completing Milestones 
 
 Document one change you can make to improve your team collaboration.
 A potential problem I can think of is that if there is a technical disagreement, it can be paused and can be followed up later since this respects everyone's time since there would be non-technical team members in the meeting as well.
