@@ -44,6 +44,7 @@ Refactoring removes the duplicate code so that if there is a change later on, th
 
 4.5 Commenting & Documentation
 
+Add comments when they explain why, assumptions, or tricky logic. Avoid comments that merely restate obvious code. First improve readability with clear names, small functions, and simple structure. Use comments only when code alone cannot clearly express the intent or important context.
 
 
 4.6 Handling Errors & Edge Cases
