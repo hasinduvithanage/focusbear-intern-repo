@@ -11,7 +11,7 @@ Routinery
 
 What makes Focus Bear different from these apps?
 
-When compared with Tiimo and Routinery, they are purely just visual planners or routine planners. While Focus Bear has this feature in its aresnal where it differs is that it actively provides website blocking for unwanted. What this does is, it prevents the user from using up the block of time allocated for work on other unwanted distractions. 
+When compared with Tiimo and Routinery, they are purely just visual planners or routine planners. While Focus Bear has this feature in its aresnal where it differs is that it actively provides website blocking for unwanted. What this does is, it prevents the user from using up the block of time allocated for work on other unwanted distractions.
 Cold Turkey and Freedom are more similar to Focus Bear where they help block websites too. The differences can be seen in Cold Turkey in the way that it is too harsh on its punishments. It is mentioned that it "makes it almost impossible to stop the block once you lock it". This means that even though there is an emergency it would take a lot of time or it won't be possible to veer out of focus session. Focus bear on the other hand is more flexible but still does keep a strong back bone when coming to switching to distractions with a stricter mode "geek mode". Where Focus Bear differs from Freedom is that Focus bear is built with ADHD users in mind. Focus Bear naturally block all unwanted websites unless you put it in an allow list. Where Freedom is primarily focused on blocking, Focus Bear is a full on habit and routine app that includes blocking as a feature.
 
 If you were a user, why would you choose Focus Bear over competitors?

@@ -2,7 +2,7 @@
 
 Who are considered vulnerable populations, and what challenges might they face in digital spaces?
 
-Vulnerable populations consist of neurodivergent individuals, the elderly, people with disabilities, and people with low digital literacy. Some of the challenges they would face in a digital space is that they would be overwhelmed by sensory input, complex navigation systems and manipulative UI will be challenging for vulnerable populations. 
+Vulnerable populations consist of neurodivergent individuals, the elderly, people with disabilities, and people with low digital literacy. Some of the challenges they would face in a digital space is that they would be overwhelmed by sensory input, complex navigation systems and manipulative UI will be challenging for vulnerable populations.
 
 What ethical considerations are important when designing or working with neurodivergent individuals? (Hint: Avoid overwhelming UX, respect sensory needs, ensure clear communication.)
 
@@ -17,6 +17,7 @@ How can you make interactions and content more accessible for people with ADHD o
 - Reducing congitive load by breaking long tasks and processes for set up into micro steps and an easy set up that can be approached easier.
 
 How can we support neurodivergent team members in a professional setting? (Hint: Be clear in communication, respect different working styles, and allow flexibility.)
+
 - Be flexible by allowing team members blocks of time where they can work without any distractions.
 - By being clear in communication by being very explicit with the message.
 - By respecting different work styles by understanding that some people prefer work styles that does not match you. For example, some may not prefer direct and verbal feedback and would prefer written updates.
@@ -24,9 +25,10 @@ How can we support neurodivergent team members in a professional setting? (Hint:
 📝 Reflection
 
 How can you adjust your communication style to be more inclusive of neurodivergent users and teammates?
-I can give teammated more time to process information in writing rather than putting them on the spot, which would be pressurizing. 
+I can give teammated more time to process information in writing rather than putting them on the spot, which would be pressurizing.
 
 What are some common UX or communication pitfalls that might make Focus Bear less accessible or supportive?
+
 - Too many notifications could be a pitfall for Focus Bear; too many reminders can become a source of anxiety rather than help, which could demotivate the user to keep using the app.
 - If the app is too harsh with the punishments when a user misses a habit it can trigger shame in the user.
 

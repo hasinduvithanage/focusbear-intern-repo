@@ -6,7 +6,8 @@ How does a Kanban board work, and how does it help manage workflow?
 A kanban board can be used to visualiza tasks and prioritize them. They depict tasks as visual cards, and they have columns that depict the stages of development. It gives a 'bird's eye view' of the work, therefore helps to identify bottlenecks by seeing the time spent on each task.
 
 What do the different columns on a Kanban board represent? (e.g., Backlog, In Progress, Blocked, Done)
-Kanban boards are customisable, however in the board that I created, I have the columns; To do, In progress, In review, Done. 
+Kanban boards are customisable, however in the board that I created, I have the columns; To do, In progress, In review, Done.
+
 - To do are all the tasks that are back logged to be done.
 - In progress are all the tasks that I am currently working on for example this milestone.
 - In review, are all the tasks left to be analyzed by the bot to be given approval.
@@ -29,9 +30,11 @@ By putting every task to the Kanban board, for example every small bug fix and d
 🛠️ Task
 
 Create a kanban board for your repo with relevant columns (e.g. not started, in progress, ready for review, approved by bot)
+
 - Done
 
 Move at least one task through the Kanban process and update its status correctly.
+
 - Done
 
 Identify one way you can improve task tracking in your role.

@@ -1,11 +1,10 @@
 Which extensions did you install? Why?
 
 I have installed:
-React Developer Tools 
-Redux DevTools 
-A JSON Viewer 
-Lighthouse 
-
+React Developer Tools
+Redux DevTools
+A JSON Viewer
+Lighthouse
 
 What was the most useful thing you learned?
 

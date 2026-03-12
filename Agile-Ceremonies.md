@@ -16,12 +16,12 @@ Backlog Refinement
 This is where the team reviews, updates and prioritizes the action items in the backlog. This is to make sure that they are actionable, clearly defined, and accurately estimated to be carried out.
 
 How do Agile teams collaborate asynchronously and across time zones?
-By using strict documentations as soon as a team member clocks out, the team members in a different time zone can pick up the work right where it is left off. By having detailed task descriptions and by setting clear goals, all of the team members will know what to do without needing a live meeting. With pull requests by not just listing the changes but explaining why the change was made, we can avoid a back and forth and get to the point. 
+By using strict documentations as soon as a team member clocks out, the team members in a different time zone can pick up the work right where it is left off. By having detailed task descriptions and by setting clear goals, all of the team members will know what to do without needing a live meeting. With pull requests by not just listing the changes but explaining why the change was made, we can avoid a back and forth and get to the point.
 
 📝 Reflection
 
 How do Agile ceremonies help with communication and alignment?
-By incorporating all of these agile ceromonies a team is forced to have transparency. It makes sure everyone  is on track even across multiple time zones, and avoids the problem where a developer would work weeks on a feature only to find out that it does not integrate with the rest of the system. 
+By incorporating all of these agile ceromonies a team is forced to have transparency. It makes sure everyone is on track even across multiple time zones, and avoids the problem where a developer would work weeks on a feature only to find out that it does not integrate with the rest of the system.
 
 Which ceremony do you think is most important for your role, and why?
 As a backend developer I feel that the ceremony, Backlog refinement is the most important one since clarifying the logic here will avoid a lot of confusion and rewrites later on. This ceremony will help to catch gaps in the item early on.
@@ -38,8 +38,9 @@ Participate in a retrospective or review past notes from one.
 
 Reviewed past notes of meeting on 5/3/2026.
 Summary:
+
 - New feature discussed regarding adding a feature to add emojis to the rountine generations.
-- Interns talked about completing Milestones 
+- Interns talked about completing Milestones
 
 Document one change you can make to improve your team collaboration.
 A potential problem I can think of is that if there is a technical disagreement, it can be paused and can be followed up later since this respects everyone's time since there would be non-technical team members in the meeting as well.

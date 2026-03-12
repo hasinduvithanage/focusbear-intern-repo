@@ -1,4 +1,4 @@
-# Definition of Done (DoD) in Agile 
+# Definition of Done (DoD) in Agile
 
 ## What is Definition of Done?
 
@@ -17,6 +17,7 @@ The **Definition of Done (DoD)** is a clear checklist of criteria that must be s
 - Makes releases smoother and more predictable
 
 Without a DoD, teams risk:
+
 - Bugs surfacing in production
 - Rewrites and refactoring
 - Misaligned expectations with stakeholders
@@ -54,6 +55,5 @@ Only when **all items** are satisfied is the feature truly "done."
 - [Atlassian – Definition of Done](https://www.atlassian.com/agile/project-management/definition-of-done)
 
 hello world
-
 
 testing staging vs commiting

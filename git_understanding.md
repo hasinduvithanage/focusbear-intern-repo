@@ -20,7 +20,7 @@ Using GitHub Desktop I clicked resolve conlficts in Visual Studio, I went to the
 
 What did you learn?
 
-I learned that these conflicts are more of a fail safe to prevent accidents rather than errors. 
+I learned that these conflicts are more of a fail safe to prevent accidents rather than errors.
 
 Commit and push your changes to GitHub.
 
@@ -40,17 +40,14 @@ What did you learn from reviewing an open-source PR?
 
 I learned the importance of rigorous communication. I learned that it is important to prioritize backward compatibility, and clear documentation. And when reviewing it is important to make sure that the changes align with the project's long term architecture and standards.
 
-
-
-
-3.2 Writing Meaningful Commit Messages 
+3.2 Writing Meaningful Commit Messages
 What makes a good commit message?
 
 The subject line should be short and to the point. Use prefixes to categorize the changes. In the body include context and the changes made and in what lines.
 
 How does a clear commit message help in team collaboration?
 
-This leads to faster code reviews by bypassing confusion in the intent behind the change. Can debug efficiently since all changes will be stored clear cut in history. 
+This leads to faster code reviews by bypassing confusion in the intent behind the change. Can debug efficiently since all changes will be stored clear cut in history.
 
 How can poor commit messages cause issues later?
 
@@ -70,44 +67,46 @@ How does it compare to manually reviewing commits?
 
 - It is much faster and there's less workload on the human coder to manually review all of the commits. If the changes themselves are large it will take a longer time and will be exhausting to check manually.
 
-
-
-3.4 Advanced Git Commands & When to Use Them
-What does each command do?
+  3.4 Advanced Git Commands & When to Use Them
+  What does each command do?
 
 git checkout main -- <file>
+
 - It helps to a file back to its orignial state from the main branch
 
-git cherry-pick <commit> 
+git cherry-pick <commit>
+
 - This command commits a specific section from another branch into the current branch
 
 git log
+
 - This displays the commit history of a repo, like the author and the commit message.
 
-
 git blame <file>
+
 - It displays the commit including author and date that last modified a line of code.
 
 When would you use it in a real project (hint: these are all really important in long running projects with multiple developers)?
 
 git checkout main -- <file>
+
 - This helps to restore a file to the original version in the main incase I accidentaly modify or break the file while working on a feature branch
 
-git cherry-pick <commit> 
-- If a specific bug fix was done in another branch I can just import that specific fix into my current branch that I am working on. 
+git cherry-pick <commit>
+
+- If a specific bug fix was done in another branch I can just import that specific fix into my current branch that I am working on.
 
 git log
+
 - This can be used to review past commits and understand what changes have been made and when.
 
 git blame <file>
+
 - This can be used when debugging and investigating issues in a codebase. It can be used to identify who made a change to a line of code that is causing issues.
 
 What surprised you while testing these commands?
 
 I was surprised by how precise the commands were when giving out the information. I also realized how useful these commands were and the level of flexibility offered by these commands were really good.
-
-
-
 
 3.5 Branching & Team Collaboration
 
@@ -115,47 +114,18 @@ Why is pushing directly to main problematic?
 Pushing directly to the main branch is problematic since a wrong/broken code can affect the entire project. It will disrupt other developers' works as well.
 
 How do branches help with reviewing code?
-Branches allow developers to work on features and bug fixes independently. The changes can then be reviewed before being merged. 
+Branches allow developers to work on features and bug fixes independently. The changes can then be reviewed before being merged.
 
 What happens if two people edit the same file on different branches?
 There will be a merge conflict when merging the branches back into main. The developers must then manually review the differences and decide which iteration of the specific line of code to keep.
 
-
 3.6 Git Concepts: Staging vs. Committing
 
 What is the difference between staging and committing?
-Staging means when I prepare the changes to be commited. Commiting means permanently saving the changes to the branch in the repository. 
+Staging means when I prepare the changes to be commited. Commiting means permanently saving the changes to the branch in the repository.
 
 Why does Git separate these two steps?
 Git seperates the two since then developers have more control over what they are committing. For example, if they only want commit a few of the changes made, they can do that using staging and committing.
 
 When would you want to stage changes without committing?
 When I want to review what will be comitted without actually committing.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
