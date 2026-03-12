@@ -53,10 +53,38 @@ Handling errors improves reliability by ensuring the program can safely manage u
 
 4.7 Refactoring Code for Simplicity
 
+What made the original code complex?
+The original code was complex because it was doing too many things at once, which made it harder to read, test, and debug. It also had repeated logic and unclear structure, so understanding the purpose of each part took more effort.
+
+How did refactoring improve it?
+Refactoring improved it by making the code cleaner, more organized, and easier to follow. Breaking it into smaller parts and removing repetition made it easier to maintain, test, and update without affecting other parts of the program.
+
 4.8 Identifying & Fixing Code Smells
+
+What code smells did you find in your code?
+I wrote several code smells, including magic numbers and strings, long functions, duplicate code, large classes, deeply nested conditionals, commented-out code, and inconsistent naming.
+
+How did refactoring improve the readability and maintainability of the code?
+Refactoring made the code easier to understand by improving structure, using clearer names, reducing repetition, and separating responsibilities. This makes the code easier to read, update, and maintain later.
+
+How can avoiding code smells make future debugging easier?
+Avoiding code smells makes debugging easier because the code is clearer and more predictable. When each part has a clear purpose, it is easier to find where a problem starts and fix it without affecting unrelated parts.
 
 4.9 Writing Unit Tests for Clean Code
 
+How do unit tests help keep code clean?
+Unit tests help keep code clean because they encourage me to write smaller, focused, and predictable functions. Code that is easier to test is usually easier to read, maintain, and improve.
+
+What issues did you find while testing?
+While testing, I found issues such as functions not handling invalid inputs properly, unexpected outputs for edge cases, and parts of the code being harder to test because they were too large or doing too many things at once.
+
 4.10 Code Formatting & Style Guides
 
-4.11 Static Analysis Checks in CI/CD
+Why is code formatting important?
+Code formatting is important because it makes code more consistent, readable, and professional. It helps me and other developers understand the code faster and reduces confusion when working on the same project.
+
+What issues did the linter detect?
+The linter detected issues such as inconsistent spacing, missing semicolons, unused variables, and code that did not follow the expected style rules. These were small issues, but they affect code quality and consistency.
+
+Did formatting the code make it easier to read?
+Yes, formatting the code made it easier to read. Once the spacing, indentation, and structure were consistent, the code looked much cleaner and it was easier to follow what each part was doing.
