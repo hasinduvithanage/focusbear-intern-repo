@@ -56,3 +56,5 @@ After having used AI for documentation in the past, I can vouch that it definite
 
 Document one best practice you will follow when using AI tools at Focus Bear.
 The most vital best practise to be followed whenever using AI is to always make sure that I should blindly use what the AI gives me. I will make sure to fully understand the content gathered from the AI before making use of it.
+
+hello how are yuo?
