@@ -9,3 +9,7 @@ Some challenges include pipelines failing due to small formatting issues, slower
 
 4. How do CI/CD pipelines differ between small projects and large teams?
 Small projects usually have simpler pipelines with basic checks such as linting and unit tests. Large teams often use more complex pipelines that include multiple test stages, security scans, performance tests, and automated deployments to different environments.
+
+
+Added: 4a562b6202690a339a3e92cc236ade17d2bda0f6
+
