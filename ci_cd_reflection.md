@@ -12,3 +12,5 @@ Small projects usually have simpler pipelines with basic checks such as linting 
 
 
 Added: 4a562b6202690a339a3e92cc236ade17d2bda0f6
+
+hllo how are yuo?
