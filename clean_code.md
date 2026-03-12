@@ -48,8 +48,13 @@ Add comments when they explain why, assumptions, or tricky logic. Avoid comments
 
 
 4.6 Handling Errors & Edge Cases
+Code (commit ID): 4b9d6eecbb43675d36d0db41f75eaea1c6aa0aca
 
+What was the issue with the original code?
+The original code did not properly check for invalid inputs or edge cases. This could cause unexpected behaviour or runtime errors if the function received incorrect data, empty values, or values outside the expected range.
 
+How does handling errors improve reliability?
+Handling errors improves reliability by ensuring the program can safely manage unexpected inputs or situations. Using techniques like guard clauses prevents invalid data from being processed and allows the program to fail safely instead of crashing.
 
 4.7 Refactoring Code for Simplicity
 
