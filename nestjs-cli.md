@@ -13,3 +13,6 @@ The CLI generates files using standard NestJS templates and project structure, e
 What types of files and templates does the CLI create by default?
 
 It can create modules, controllers, services, middleware, guards, interceptors, pipes, and test files using predefined templates.
+
+
+code commit: 76d1d76f6b33171fa8c16b6afb0649e55cd43e01
