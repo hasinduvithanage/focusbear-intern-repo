@@ -11,12 +11,14 @@ services:
       - "5432:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
-      - ./init.sql:/docker-entrypoint-initdb.d/init.sql  # optional: run SQL on first startup
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-myuser} -d ${POSTGRES_DB:-mydb}"]
       interval: 10s
       timeout: 5s
       retries: 5
+    networks:
+      - app-network                          # ← ADDED
 
   pgadmin:
     image: dpage/pgadmin4
@@ -30,7 +32,35 @@ services:
     depends_on:
       postgres:
         condition: service_healthy
+    networks:
+      - app-network                          # ← ADDED
+
+  nestjs:                                    # NestJS
+    build:
+      context: ./nest-project 
+      dockerfile: Dockerfile
+    container_name: nestjs_app
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    environment:
+      DB_HOST: postgres                      # service name, not localhost
+      DB_PORT: 5432
+      DB_USER: ${POSTGRES_USER:-myuser}
+      DB_PASSWORD: ${POSTGRES_PASSWORD:-mysecretpassword}
+      DB_NAME: ${POSTGRES_DB:-mydb}
+    depends_on:
+      postgres:
+        condition: service_healthy           # waits for postgres healthcheck to pass
+    networks:
+      - app-network
 
 volumes:
   pgdata:
     driver: local
+
+networks:                                    # ← ADDED
+  app-network:
+    driver: bridge
