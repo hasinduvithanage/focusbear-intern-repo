@@ -46,4 +46,4 @@ _Identify one Agile principle you think will be most useful in your work._
 The principle of continous reflections and improvements will be most useful to my work since it will turn every work cycle of mine into a learning experience. Instead of working by myself and hoping for the best, frequent check ins with the team can help me catch errors and will make sure that I stay on track of my project goals.
 
 
-how are yuo?
+how are yuo? are you not alight?
