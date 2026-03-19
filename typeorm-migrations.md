@@ -12,4 +12,4 @@ This makes sure that deployments are safe and allows developers to trace, audit 
 
 How can you roll back a migration if an issue occurs?
 
-We can revert the most recent migration using the TypeORM rollback command, typeorm migration:revert.
+We can revert the most recent migration using the TypeORM rollback command, npm run migration:revert.
