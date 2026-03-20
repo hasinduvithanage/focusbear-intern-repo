@@ -1,6 +1,6 @@
 Which AI tools did you try?
 
-I have tried Claude, and Claude Code.
+I have tried Claude, and Claude diode.
 
 What worked well? What didn’t?
 
