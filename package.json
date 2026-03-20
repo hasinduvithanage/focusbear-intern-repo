@@ -12,9 +12,12 @@
     "prettier": "^3.8.1"
   },
   "dependencies": {
+    "@nestjs/bullmq": "^11.0.4",
     "@nestjs/typeorm": "^11.0.0",
+    "bullmq": "^5.71.0",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.15.1",
+    "ioredis": "^5.10.1",
     "pg": "^8.20.0",
     "typeorm": "^0.3.28"
   }
