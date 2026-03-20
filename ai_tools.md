@@ -1,10 +1,10 @@
 Which AI tools did you try?
 
-I have tried ChatGPT, and Github Copilot.
+I have tried Claude, and Claude Code.
 
 What worked well? What didn’t?
 
-GitHub copilot works really well when I want to review my code and search for bugs. It also has autocomplete for the code that I am writing. With ChatGPT, I can use it really well for debugging and explaining concepts.
+Claude Code works really well when I want to review my code and search for bugs. It also has autocomplete for the code that I am writing. With Claude, I can use it really well for debugging and explaining concepts.
 
 When do you think AI is most useful for coding?
 
