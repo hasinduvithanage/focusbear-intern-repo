@@ -4,6 +4,7 @@ import { AppService } from './app.service';
 import { BooksModule } from './books.module';
 import { ProductsModule } from './products/products.module';
 import { TypeOrmModule } from '@nestjs/typeorm'; 
+import { FocusSessionModule } from './focus-session/focus-session.module';
 
 @Module({
   imports: [
@@ -16,7 +17,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       database: process.env.DB_NAME ?? 'mydb',
       autoLoadEntities: true,
       synchronize: true,    }),
-    BooksModule, ProductsModule],
+    BooksModule, ProductsModule, FocusSessionModule],
   controllers: [AppController],
   providers: [AppService],
 })
