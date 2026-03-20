@@ -15,3 +15,5 @@ my name is sukuna. and your name is yuji itadori.
 my name is yuta.
 
 i am eren yeager.
+
+i am jogo.
