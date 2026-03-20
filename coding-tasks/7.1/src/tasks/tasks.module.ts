@@ -6,10 +6,16 @@ import { TasksService } from './tasks.service';
 import { LoggerMiddleware } from './logger.middleware';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Task } from './task.entity';
+import { NotificationsModule } from '../notifications/notifications.module';
 
 
 @Module({
-  imports: [TypeOrmModule.forFeature([Task])],
+  imports: [
+    TypeOrmModule.forFeature([Task]),
+
+    // Import NotificationsModule so TasksService can inject NotificationsService
+    NotificationsModule,
+  ],
   controllers: [TasksController],
   providers: [TasksService],
 })
