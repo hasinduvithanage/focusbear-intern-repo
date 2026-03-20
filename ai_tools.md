@@ -13,3 +13,5 @@ AI is most useful for me when I want to get started on something. Instead of sta
 my name is sukuna. and your name is yuji itadori.
 
 my name is yuta.
+
+i am eren yeager.
