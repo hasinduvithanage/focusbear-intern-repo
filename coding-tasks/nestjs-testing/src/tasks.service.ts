@@ -12,6 +12,7 @@
 import { Injectable, NotFoundException, Inject } from '@nestjs/common';
 import { Task, TaskRepository } from './task.types';
 import { NotificationsService } from './notifications.service';
+import { generateTaskSummary, calculatePriorityScore } from './task.utils';
 
 // Injection token — in real 7.1 project, getRepositoryToken(Task) provides this
 export const TASK_REPOSITORY = 'TASK_REPOSITORY';
@@ -74,5 +75,23 @@ export class TasksService {
     const task = await this.findOne(id);
     await this.taskRepository.remove(task);
     return { message: `Task "${task.title}" deleted` };
+  }
+
+  // ---------------------------------------------------------------
+  // These methods use directly-imported utility functions.
+  // They demonstrate when you'd use jest.mock() vs jest.spyOn().
+  // ---------------------------------------------------------------
+
+  async getSummary(id: string): Promise<string> {
+    const task = await this.findOne(id);
+    return generateTaskSummary(task.title, task.completed);
+  }
+
+  async getTotalPriorityScore(): Promise<number> {
+    const tasks = await this.findAll();
+    return tasks.reduce(
+      (total, task) => total + calculatePriorityScore(task.priority, task.completed),
+      0,
+    );
   }
 }

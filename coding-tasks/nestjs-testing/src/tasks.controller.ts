@@ -1,3 +1,12 @@
+// ---------------------------------------------------------------
+// TASKS CONTROLLER — Updated with DTOs
+//
+// Now uses CreateTaskDto and UpdateTaskDto instead of raw @Body().
+// This means the global ValidationPipe will validate incoming
+// requests against the DTO decorators before they reach the
+// handler method.
+// ---------------------------------------------------------------
+
 import {
   Controller,
   Get,
@@ -13,6 +22,7 @@ import { TasksService } from './tasks.service';
 import { JwtAuthGuard } from './jwt-auth.guard';
 import { PermissionsGuard } from './permissions.guard';
 import { Permissions } from './permissions.decorator';
+import { CreateTaskDto, UpdateTaskDto } from './task.dto';
 
 @Controller('tasks')
 @UseGuards(JwtAuthGuard, PermissionsGuard)
@@ -21,8 +31,8 @@ export class TasksController {
 
   @Post()
   @Permissions('create:tasks')
-  create(@Body() body: { title: string; description: string }) {
-    return this.tasksService.create(body.title, body.description);
+  create(@Body() dto: CreateTaskDto) {
+    return this.tasksService.create(dto.title, dto.description);
   }
 
   @Get()
@@ -39,11 +49,8 @@ export class TasksController {
 
   @Put(':id')
   @Permissions('update:tasks')
-  update(
-    @Param('id') id: string,
-    @Body() body: { title?: string; description?: string; completed?: boolean },
-  ) {
-    return this.tasksService.update(id, body);
+  update(@Param('id') id: string, @Body() dto: UpdateTaskDto) {
+    return this.tasksService.update(id, dto);
   }
 
   @Delete(':id')

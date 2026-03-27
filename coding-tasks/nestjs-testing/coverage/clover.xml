@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1774585354127" clover="3.2.0">
+  <project timestamp="1774585354127" name="All files">
+    <metrics statements="92" coveredstatements="92" conditionals="24" coveredconditionals="24" methods="26" coveredmethods="25" elements="142" coveredelements="141" complexity="0" loc="92" ncloc="92" packages="1" files="7" classes="7"/>
+    <file name="jwt-auth.guard.ts" path="C:\Users\hasin\Desktop\FocusBear\my-onboarding-backend-nest-js\focusbear-intern-repo\coding-tasks\nestjs-testing\src\jwt-auth.guard.ts">
+      <metrics statements="15" coveredstatements="15" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+      <line num="16" count="4" type="stmt"/>
+      <line num="24" count="4" type="stmt"/>
+      <line num="40" count="4" type="stmt"/>
+      <line num="42" count="34" type="stmt"/>
+      <line num="43" count="34" type="stmt"/>
+      <line num="46" count="34" type="cond" truecount="2" falsecount="0"/>
+      <line num="47" count="6" type="stmt"/>
+      <line num="51" count="28" type="stmt"/>
+      <line num="52" count="28" type="cond" truecount="4" falsecount="0"/>
+      <line num="53" count="4" type="stmt"/>
+      <line num="57" count="24" type="stmt"/>
+      <line num="58" count="24" type="cond" truecount="2" falsecount="0"/>
+      <line num="59" count="3" type="stmt"/>
+      <line num="63" count="21" type="stmt"/>
+      <line num="64" count="21" type="stmt"/>
+    </file>
+    <file name="notifications.service.ts" path="C:\Users\hasin\Desktop\FocusBear\my-onboarding-backend-nest-js\focusbear-intern-repo\coding-tasks\nestjs-testing\src\notifications.service.ts">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <line num="9" count="4" type="stmt"/>
+      <line num="12" count="4" type="stmt"/>
+    </file>
+    <file name="permissions.decorator.ts" path="C:\Users\hasin\Desktop\FocusBear\my-onboarding-backend-nest-js\focusbear-intern-repo\coding-tasks\nestjs-testing\src\permissions.decorator.ts">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="5" type="stmt"/>
+      <line num="3" count="5" type="stmt"/>
+      <line num="4" count="5" type="stmt"/>
+      <line num="5" count="15" type="stmt"/>
+    </file>
+    <file name="permissions.guard.ts" path="C:\Users\hasin\Desktop\FocusBear\my-onboarding-backend-nest-js\focusbear-intern-repo\coding-tasks\nestjs-testing\src\permissions.guard.ts">
+      <metrics statements="12" coveredstatements="12" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+      <line num="1" count="4" type="stmt"/>
+      <line num="2" count="4" type="stmt"/>
+      <line num="3" count="4" type="stmt"/>
+      <line num="6" count="4" type="stmt"/>
+      <line num="7" count="11" type="stmt"/>
+      <line num="11" count="28" type="stmt"/>
+      <line num="17" count="28" type="cond" truecount="4" falsecount="0"/>
+      <line num="18" count="2" type="stmt"/>
+      <line num="22" count="26" type="stmt"/>
+      <line num="23" count="26" type="cond" truecount="2" falsecount="0"/>
+      <line num="26" count="26" type="stmt"/>
+      <line num="27" count="28" type="stmt"/>
+    </file>
+    <file name="task.utils.ts" path="C:\Users\hasin\Desktop\FocusBear\my-onboarding-backend-nest-js\focusbear-intern-repo\coding-tasks\nestjs-testing\src\task.utils.ts">
+      <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <line num="14" count="5" type="stmt"/>
+      <line num="15" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="16" count="7" type="stmt"/>
+      <line num="19" count="5" type="stmt"/>
+      <line num="23" count="14" type="stmt"/>
+      <line num="24" count="14" type="stmt"/>
+      <line num="25" count="14" type="cond" truecount="2" falsecount="0"/>
+    </file>
+    <file name="tasks.controller.ts" path="C:\Users\hasin\Desktop\FocusBear\my-onboarding-backend-nest-js\focusbear-intern-repo\coding-tasks\nestjs-testing\src\tasks.controller.ts">
+      <metrics statements="20" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+      <line num="10" count="3" type="stmt"/>
+      <line num="21" count="3" type="stmt"/>
+      <line num="22" count="3" type="stmt"/>
+      <line num="23" count="3" type="stmt"/>
+      <line num="24" count="3" type="stmt"/>
+      <line num="25" count="3" type="stmt"/>
+      <line num="29" count="3" type="stmt"/>
+      <line num="30" count="17" type="stmt"/>
+      <line num="34" count="3" type="stmt"/>
+      <line num="35" count="5" type="stmt"/>
+      <line num="40" count="3" type="stmt"/>
+      <line num="41" count="6" type="stmt"/>
+      <line num="46" count="3" type="stmt"/>
+      <line num="47" count="6" type="stmt"/>
+      <line num="52" count="3" type="stmt"/>
+      <line num="53" count="3" type="stmt"/>
+      <line num="58" count="3" type="stmt"/>
+      <line num="59" count="3" type="stmt"/>
+      <line num="63" count="3" type="stmt"/>
+      <line num="64" count="1" type="stmt"/>
+    </file>
+    <file name="tasks.service.ts" path="C:\Users\hasin\Desktop\FocusBear\my-onboarding-backend-nest-js\focusbear-intern-repo\coding-tasks\nestjs-testing\src\tasks.service.ts">
+      <metrics statements="32" coveredstatements="32" conditionals="6" coveredconditionals="6" methods="9" coveredmethods="9"/>
+      <line num="12" count="4" type="stmt"/>
+      <line num="14" count="4" type="stmt"/>
+      <line num="15" count="4" type="stmt"/>
+      <line num="18" count="4" type="stmt"/>
+      <line num="21" count="4" type="stmt"/>
+      <line num="24" count="36" type="stmt"/>
+      <line num="26" count="36" type="stmt"/>
+      <line num="30" count="7" type="stmt"/>
+      <line num="31" count="7" type="stmt"/>
+      <line num="34" count="6" type="stmt"/>
+      <line num="35" count="6" type="stmt"/>
+      <line num="37" count="6" type="stmt"/>
+      <line num="41" count="7" type="stmt"/>
+      <line num="45" count="22" type="stmt"/>
+      <line num="46" count="22" type="cond" truecount="2" falsecount="0"/>
+      <line num="47" count="8" type="stmt"/>
+      <line num="49" count="14" type="stmt"/>
+      <line num="56" count="8" type="stmt"/>
+      <line num="57" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="60" count="7" type="stmt"/>
+      <line num="61" count="7" type="stmt"/>
+      <line num="64" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="65" count="2" type="stmt"/>
+      <line num="71" count="7" type="stmt"/>
+      <line num="75" count="3" type="stmt"/>
+      <line num="76" count="2" type="stmt"/>
+      <line num="77" count="2" type="stmt"/>
+      <line num="86" count="2" type="stmt"/>
+      <line num="87" count="1" type="stmt"/>
+      <line num="91" count="1" type="stmt"/>
+      <line num="92" count="1" type="stmt"/>
+      <line num="93" count="2" type="stmt"/>
+    </file>
+  </project>
+</coverage>
