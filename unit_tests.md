@@ -43,3 +43,34 @@ Understanding that different situations need a different matcher. Like toBe cann
 Example of code:
     expect(getTasksByPriority(allHigh, 'low')).toEqual([]);
 
+
+9.5
+
+
+What are the key differences between unit, integration, and E2E tests?
+
+Unit tests check one single piece of code in isolation, like a function. It tests the smallest pieces of code possible. It is very fast and help pinpoint exactly where the bug is. Integration testing checks multiple pieces of code working together like a controller calling a real service, with the database mocked. They check bugs in pieces connected together. E2E (End to End) testing tests the full application and sends real HTTP requests, testing the entire pipeline from request to response. They are the slowest but most realistic as well.
+
+Why is testing important for a NestJS backend?
+
+The backend handles data that users depend on like task creation, authentication, notifications. A bug that is not obvious could disrupt data and expose endpoints to unauthorized users. Tests will catch these sort of issues before they reach production level. They also reduce anxiety when it comes to changing code since I can use tests to know immediately if the code has broken somethin else.
+
+How does NestJS use @nestjs/testing to simplify testing?
+
+@nestjs/testing provides Test.createTestingModule(), this creates a smaller NestJS app with full dependency injection support. Here I can swap real dependencies with mocks. The testing module handles all the wiring automatically. 
+
+What are the challenges of writing tests for a NestJS application?
+
+Challenges include deciding what to mock and what to keep real from the code. If you mock too many things then we will not be able to catch real integration issues, whereas if you mock too little the tests need a running database and Redis server to pass.
+
+
+
+
+
+
+
+
+
+
+
+
