@@ -29,3 +29,17 @@ React Testing Library allows me to test what the user sees and does like clickin
 What challenges did you encounter when simulating user interaction?
 
 A big challenge was testing multi-step flows, where clicking one butting like Start focusing for example will change the button to Stop focusing, so the order of interactions should be correct. I had to think about the current name/state of the button at each step.
+
+
+9.4 
+
+Why is automated testing important in software development?
+
+Automated testing is important because they catch bugs instantly every time we change the code. They run rapidly and prevent working feature breaks because of a change in the code. 
+
+What did you find challenging when writing your first Jest test?
+
+Understanding that different situations need a different matcher. Like toBe cannot be used for objects and needs toEqual instead. 
+Example of code:
+    expect(getTasksByPriority(allHigh, 'low')).toEqual([]);
+
