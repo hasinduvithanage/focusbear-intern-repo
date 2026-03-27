@@ -19,3 +19,13 @@ What are some common pitfalls when testing asynchronous code?
 
 -When we call render({<TaskList/>}) and immediately check for task names, it will not work since the API data has not arrived yet. So we should add await waitfor() to keep checking the DOM until the data appears.
 - If we do not reset tests between tests, some configurations would leak from previous test into the new test, and therefore will fail. using jest.resetAllMocks() we can reset each test inbetween tests.
+
+
+9.3
+What are the benefits of using React Testing Library instead of testing implementation details?
+
+React Testing Library allows me to test what the user sees and does like clicking buttons. This test passes as long as the user experience stays the same, whereas implementation check tests break down every time I change how the code works.
+
+What challenges did you encounter when simulating user interaction?
+
+A big challenge was testing multi-step flows, where clicking one butting like Start focusing for example will change the button to Stop focusing, so the order of interactions should be correct. I had to think about the current name/state of the button at each step.
