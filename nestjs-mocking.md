@@ -1,3 +1,4 @@
+9.7
 Why is mocking important in unit tests?
 
 Mocking helps to isolate the code under test, so you are able to test only one thing. Without mocks testing a service will require a database connection, a redis server and Auth0 credentials. Mock gives me more control since I can decide what the service returns.
