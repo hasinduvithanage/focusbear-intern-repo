@@ -17,7 +17,7 @@ Mocking replaces the real API call with a fake function I control. I can decide 
 
 What are some common pitfalls when testing asynchronous code?
 
--When we call render({<TaskList/>}) and immediately check for task names, it will not work since the API data has not arrived yet. So we should add await waitfor() to keep checking the DOM until the data appears.
+- When we call render({<TaskList/>}) and immediately check for task names, it will not work since the API data has not arrived yet. So we should add await waitfor() to keep checking the DOM until the data appears.
 - If we do not reset tests between tests, some configurations would leak from previous test into the new test, and therefore will fail. using jest.resetAllMocks() we can reset each test inbetween tests.
 
 
