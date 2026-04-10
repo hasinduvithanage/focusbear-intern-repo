@@ -9,14 +9,11 @@ import { FocusSessionModule } from './focus-session/focus-session.module';
 @Module({
   imports: [
     TypeOrmModule.forRoot({
-      type: 'postgres',
-      host: process.env.DB_HOST ?? 'localhost',
-      port: parseInt(process.env.DB_PORT ?? '5432'),
-      username: process.env.DB_USER ?? 'myuser',
-      password: process.env.DB_PASSWORD ?? 'mysecretpassword',
-      database: process.env.DB_NAME ?? 'mydb',
+      type: 'better-sqlite3',
+      database: 'db.sqlite',
       autoLoadEntities: true,
-      synchronize: true,    }),
+      synchronize: true,
+    }),
     BooksModule, ProductsModule, FocusSessionModule],
   controllers: [AppController],
   providers: [AppService],

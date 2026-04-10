@@ -7,6 +7,7 @@ import {
   FastifyAdapter,
   NestFastifyApplication,
 } from '@nestjs/platform-fastify';
+import fastifyHelmet from '@fastify/helmet';
 import fastifyRateLimit from '@fastify/rate-limit';
 import { AppModule } from './app.module';
 import { LoggingInterceptor } from './logging.interceptor';
@@ -19,6 +20,15 @@ async function bootstrap() {
     new FastifyAdapter(),
     { bufferLogs: true },
   );
+
+  // ---------------------------------------------------------------
+  // SECURITY HEADERS — @fastify/helmet
+  //
+  // Sets various HTTP security headers (Content-Security-Policy,
+  // X-Content-Type-Options, X-Frame-Options, etc.) to protect
+  // against common web vulnerabilities like XSS and clickjacking.
+  // ---------------------------------------------------------------
+  await app.register(fastifyHelmet);
 
   // ---------------------------------------------------------------
   // RATE LIMITING — @fastify/rate-limit
